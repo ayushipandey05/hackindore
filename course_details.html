@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+</head>
+
+<body>
+    <?php include "navbar.php"; ?>
+    <br />
+    <br />
+    <h2 style='text-align:center'>Course Details</h2>
+    <br /><br />
+    <div class="container">
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Course Name</label>
+                </div>
+                <select class="custom-select" name="inputGroupSelect01" id="inputGroupSelect01">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div><br /><br />
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Course<br />  Start and End</span>
+                </div>
+                <input type="date" aria-label="Start Date" placeholeder="Start Date" class="form-control">
+                <input type="date" aria-label="Last name" placeholeder="End Date" class="form-control">
+            </div><br /><br />
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect02">Alias</label>
+                </div>
+                <input type="text" class="form-control" placeholder="Alias" aria-label="Alias" aria-describedby="basic-addon1">
+            </div><br /><br />
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect03">CourseCode</label>
+                </div>
+                <input type="password" class="form-control" placeholder="Passcode" aria-label="Password" aria-describedby="basic-addon1">
+            </div><br />
+            <button class="btn btn-primary" type="submit" name="submit">Submit form</button>
+        </form>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

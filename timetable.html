@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta http-equiv='x-ua-compatible' content='ie=edge'>
+
+    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='./css/style.css'>
+    <link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css'>
+
+</head>
+
+<body>
+    <? include "navbar.php"; ?>
+    <br />
+    <br />
+    <form>
+        <div class='row'>
+            <div class='column col-4'>
+                <label for='sessionstart' class='text-justify'><h4>Session Start</h4></label>
+                <input type='date' id='sessionstart' />
+            </div><div class='col-4'></div>
+            <div class='column col-4'>
+                <label for='sessionend' class='text-right'><h4>Session Start</h4></label>
+                <input type='date' id='sessionend' />
+            </div>
+        </div>
+        <br /><br />
+        <div class="container">
+
+            <div class="accordion" id="accordionExample">
+                <div class="card" style="width:23rem;">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                MONDAY
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body" name="monday">
+                            <span>I</span><input type="radio" aria-label="I" value="1"><br />
+                            <span>II</span><input type="radio" aria-label="II" value="2"><br />
+                            <span>III</span><input type="radio" aria-label="III" value="3"><br />
+                            <span>IV</span><input type="radio" aria-label="IV" value="4"><br />
+                            <span>V</span><input type="radio" aria-label="V" value="5"><br />
+                            <span>VI</span><input type="radio" aria-label="VI" value="6"><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample1">
+                <div class="card" style="width:23rem;">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">
+                                TUESDAY
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1">
+                        <div class="card-body" name="tuesday">
+                            <span>I</span><input type="radio" aria-label="I" value="1" ><br />
+                            <span>II</span><input type="radio" aria-label="II" value="2"><br />
+                            <span>III</span><input type="radio" aria-label="III" value="3"><br />
+                            <span>IV</span><input type="radio" aria-label="IV" value="4"><br />
+                            <span>V</span><input type="radio" aria-label="V" value="5"><br />
+                            <span>VI</span><input type="radio" aria-label="VI" value="6"><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample2">
+                <div class="card" style="width:23rem;">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
+                                WEDNESDAY
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body" name="wednesday">
+                            <span>I</span><input type="radio" aria-label="I" value="1"><br />
+                            <span>II</span><input type="radio" aria-label="II" value="2"><br />
+                            <span>III</span><input type="radio" aria-label="III" value="3"><br />
+                            <span>IV</span><input type="radio" aria-label="IV" value="4"><br />
+                            <span>V</span><input type="radio" aria-label="V" value="5"><br />
+                            <span>VI</span><input type="radio" aria-label="VI" value="6"><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion" id="accordionExample3">
+                <div class="card" style="width:23rem;">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne">
+                                THURSDAY
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample3">
+                        <div class="card-body" name="thursday">
+                            <span>I</span><input type="radio" aria-label="I" value="1"><br />
+                            <span>II</span><input type="radio" aria-label="II" value="2"><br />
+                            <span>III</span><input type="radio" aria-label="III" value="3"><br />
+                            <span>IV</span><input type="radio" aria-label="IV" value="4"><br />
+                            <span>V</span><input type="radio" aria-label="V" value="5"><br />
+                            <span>VI</span><input type="radio" aria-label="VI" value="6"><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample4">
+                <div class="card" style="width:23rem;">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne">
+                                FRIDAY
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample4">
+                        <div class="card-body" name="friday">
+                            <span>I</span><input type="radio" aria-label="I" value="1"><br />
+                            <span>II</span><input type="radio" aria-label="II" value="2"><br />
+                            <span>III</span><input type="radio" aria-label="III" value="3"><br />
+                            <span>IV</span><input type="radio" aria-label="IV" value="4"><br />
+                            <span>V</span><input type="radio" aria-label="V" value="5"><br />
+                            <span>VI</span><input type="radio" aria-label="VI" value="6"><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+                                    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+                                    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+                                    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+                                    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
